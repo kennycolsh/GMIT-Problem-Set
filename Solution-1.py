@@ -1,10 +1,17 @@
 # Solution to problem 1 
-age = input("What is your age? ")
-print(age)
-#print "Your age is: ", age
-type(age)
+#https://www.pythonforbeginners.com/basics/getting-user-input-from-the-keyboard
+user_input  = input("Please enter a positive integer:")
+try:
+   val = int(user_input)
+   print("Yes input string is an Integer.")
+   if val > 0:
+    print("Good Work its greater than 1!")
+   else:
+  
+    print("Try and Pick a Number greater and 1")
 
-#>>output
-#What is your age? 100
-#Your age is:  100
-#type 'int'>
+       
+        #print("Input number value is: ", val)
+except ValueError:
+   print("That's not an int!")
+   print("No.. input string is not an Integer. It's a string")
