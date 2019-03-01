@@ -1,0 +1,83 @@
+
+>>>> ONLINE
+$S PC/LIMS V1
+$S Devices V1
+$S device 900 Touch Control V1
+P 5.900.0011	S 12277
+$E
+$S device 867 pH Module V1
+P 5.867.0021	S 07103
+$S ADC1
+ADC 3.848.1210	S 39211
+$E
+$E
+$E
+$S Sample data V1
+		1.0	g
+$E
+$S MPL V2
+$E
+$S DETERM V1
+$S Props V2.1
+PH 1, 4, 8 CALIBRATION	saved	Determination	122771481805500869	2016-12-15 12:38:20	original	Regular without errors	 ()	2																												
+$E
+$S Results V1
+$E
+$S Mode 1	01	CAL pH	V2.0
+$S EP V1
+$E
+$S Cal V1
+1	1.000		361.5	21.5	13
+2	4.000		188.3	21.7	24
+3	8.000		-35.6	21.7	80
+$E
+$S StdAdd V1
+$E
+$E
+$S Other Variables V1
+$S System V1
+173.0	2	873	0			0		0
+$E
+$S Mode 1	01	CAL pH	V2.1
+			168.2								21.7				7.356	96.9	0.00	0			Regular stop	Pt1000				1.0
+$E
+$S Statistic V2
+$E
+$S ComVar local V1
+$E
+$S Titrant V1
+$E
+$S Sensor V1
+$S Sensor1 V2.1
+pH electrode	pH			96.9	7.356	21.7	(Pt1000)	2016-12-15 12:41:09	PH 1, 4, 8 CALIBRATION	 ()
+$E
+$E
+$E
+$S Calc Vars V1
+$E
+$S Messages V1
+$E
+$E
+$S Methodproperties V1.1
+PH 1, 4, 8 CALIBRATION	saved	Metrohm ()	2013-05-30 11:44:23	 ()	2013-10-15 16:36:22	version 4																												
+$E
+$S Method V1
+$S Methodoptions V1.1
+off	2	off	Identification 1	Identification 2	on	on	off	1.0	g	off	0	9999999999	off	30 s	on		off	off	External memory 1		Identification 1	on	off	off	on	on	no	**************	on	off
+$E
+$S 01	CAL pH	pH calibration
+pH Module 1	2.0 mV/min	10 s	110 s	25.0 °C	off	Special	3	1.000	4.000	8.000	off	off	off	0 s	0 s	1	pH electrode	automatic	off	8	off	off
+$E
+$S 02	REPORT	Report
+$S Reportoptions V1
+on each page	off	on
+$E
+$S Result report
+on	on	off	off	on	off	on	off	on	off
+$E
+$S Curve
+1	off
+$E
+$E
+$E
+$E
