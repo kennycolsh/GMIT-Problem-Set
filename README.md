@@ -21,7 +21,7 @@ Course questions
 ##Referances used:-
 #[https://www.pythonforbeginners.com/basics/getting-user-input-from-the-keyboard]
 
-2. Solution-2.py contains my solution for problem 1 in the problem set.
+2. Solution-2.py contains my solution for problem 2 in the problem set.
   I also added code to tell the user of this code what day of the week it is.
 
 ##Referances used:-
@@ -29,9 +29,16 @@ Course questions
 #https://www.w3schools.com/python/showpython.asp?filename=demo_ref_string_startswith
 #https://stackoverflow.com/questions/17953940/yes-or-no-output-python
 
-3. Solution-3.py contains my solution for problem 1 in the problem set.
+3. Solution-3.py contains my solution for problem 3 in the problem set.
  I also added some functioality to allow the user to enter in the upper and lower limit of the program then they can enter in the number that needs to get divided.
  
 
 ##Referances used:-
 [https://www.sanfoundry.com/python-program-print-numbers-range-divisible-given-number/]
+
+
+4. Solution-4.py contains my solution for problem 4 in the problem set.
+ 
+ 
+
+##Referances used:-
