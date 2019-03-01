@@ -30,6 +30,8 @@ Course questions
 #https://stackoverflow.com/questions/17953940/yes-or-no-output-python
 
 3. Solution-3.py contains my solution for problem 1 in the problem set.
+ I also added some functioality to allow the user to enter in the upper and lower limit of the program then they can enter in the number that needs to get divided.
  
 
 ##Referances used:-
+[https://www.sanfoundry.com/python-program-print-numbers-range-divisible-given-number/]
