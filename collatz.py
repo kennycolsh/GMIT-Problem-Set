@@ -5,7 +5,7 @@ def collatz(number):
 		if number % 2 == 0:
 			number = number//2
 			print(number)
-			ans = ans + str(number)
+			ans = ans + ', ' + str(number)
             
 		else:
 			number = (number*3)+1
