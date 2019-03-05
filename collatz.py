@@ -10,6 +10,7 @@ def collatz(number):
 		else:
 			number = (number*3)+1
 			print(number)
+			ans = ans + ', ' + str(number)
            
 	return ans
 number = input("Enter a number: ")
