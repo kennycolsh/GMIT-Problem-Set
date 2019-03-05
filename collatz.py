@@ -1,6 +1,6 @@
 ##Problem Set Solution 4
 def collatz(number):
-	ans=""
+	ans="hi"
 	while number > 1:
 		if number % 2 == 0:
 			number = number//2
@@ -10,8 +10,10 @@ def collatz(number):
 			number = (number*3)+1
 			print(number)
            
-
+	return ans
 number = input("Enter a number: ")
 
-collatz(int(number))
+ans = collatz(int(number))
+
+print(ans)
 
