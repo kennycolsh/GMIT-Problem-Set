@@ -30,6 +30,7 @@ Course questions
 #https://stackoverflow.com/questions/17953940/yes-or-no-output-python
 
 3. Solution-3.py contains my solution for problem 3 in the problem set.
+<<<<<<< HEAD
  I also added some functioality to allow the user to enter in the upper and lower limit of the program then they can enter in the number that needs to get divided.
  
 
@@ -39,6 +40,13 @@ Course questions
 
 4. Solution-4.py contains my solution for problem 4 in the problem set.
  
+=======
+ 
+
+##Referances used:-
+
+3. Solution-4.py contains my solution for problem 4 in the problem set.
+>>>>>>> 86f9cfcdd04352fe355d4ee7325fea0d6423ff56
  
 
 ##Referances used:-
