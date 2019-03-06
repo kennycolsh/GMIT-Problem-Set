@@ -3,6 +3,14 @@
 #https://linuxconfig.org/function-to-check-for-a-prime-number-with-python
 #this is the starting point--Solution 1
 quit =0
+def is_prime_number(x):
+        if x >= 2:
+            for y in range(2,x):
+                if not ( x % y ):
+                    return "This Is NOT a Prime number"
+        else:
+            return "This Is NOT a Prime number" 
+        return "This Is a Prime number" 
 while  quit < 1:
 
    try:
