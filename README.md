@@ -38,15 +38,18 @@ Course questions
 [https://www.sanfoundry.com/python-program-print-numbers-range-divisible-given-number/]
 
 
-4. Solution-4.py contains my solution for problem 4 in the problem set.
- 
-=======
+4. Solution-4.py contains my solution for problem 4 in the problem set.(collatz)
+ When the user enters in a number it calls the collatz function the appends onto a string "ans" 
+ and then returns and prints the result (ans)
  
 
 ##Referances used:-
 
 3. Solution-4.py contains my solution for problem 4 in the problem set.
->>>>>>> 86f9cfcdd04352fe355d4ee7325fea0d6423ff56
+to check if a number is a prime number and returns true or false.
+I also used code from my solution 1 that checks if the user enters a valid integer.
+the code also stays in the loop untill the user enters a number less than 1
  
 
 ##Referances used:-
+https://linuxconfig.org/function-to-check-for-a-prime-number-with-python
