@@ -45,7 +45,7 @@ Course questions
 
 ##Referances used:-
 
-3. Solution-4.py contains my solution for problem 4 in the problem set.
+5. Solution-5.py contains my solution for problem 5 in the problem set.
 to check if a number is a prime number and returns true or false.
 I also used code from my solution 1 that checks if the user enters a valid integer.
 the code also stays in the loop untill the user enters a number less than 1
