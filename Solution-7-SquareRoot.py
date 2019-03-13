@@ -3,7 +3,7 @@
 #import the math lib
 
 import math
-user_input  = (input("Please enter a positive Float:"))
+user_input  = (input("Please enter a positive number:"))
 
 
 def is_number(s):
@@ -16,10 +16,8 @@ def is_number(s):
         #return false if it cannot be converted to a float.
         return False
 
-print(is_number(user_input))
-
 #check if returned value is a float
 if (is_number(user_input)) == True:
         print("Its a float.")
-        #ans = math.sqrt(s)
-        #print(ans)
+        ans = math.sqrt(float(user_input))
+        print("The square root of " + user_input + " is " + ans)
