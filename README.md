@@ -63,4 +63,13 @@ split the input string and also to see if the user entered a sentence with just 
 ##Referances used:-
 https://stackoverflow.com/questions/54857129/write-a-program-that-takes-a-user-input-string-and-outputs-every-second-word
 
+7. Solution-6-SplitString.py contains my solution for problem 7 in the problem set.
+Write a program that that takes a positive floating point number as input and outputs
+an approximation of its square root.
+One trick i noticed at the end was I had to convert the float back to a strinf to concat it for printing.
+ 
 
+##Referances used:-
+#https://stackoverflow.com/questions/34425583/how-to-check-if-string-is-int-or-float-in-python-2-7?answertab=votes#tab-top
+#import the math lib
+#https://stackoverflow.com/posts/3400987/edit for rounding
