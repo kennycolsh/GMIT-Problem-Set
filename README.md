@@ -53,3 +53,14 @@ the code also stays in the loop untill the user enters a number less than 1
 
 ##Referances used:-
 https://linuxconfig.org/function-to-check-for-a-prime-number-with-python
+
+6. Solution-6-SplitString.py contains my solution for problem 6 in the problem set.
+Write a program that takes a user input string and outputs every second word.
+I also used code from my solution 1 to take an input from the user.I used a function and caled it to 
+split the input string and also to see if the user entered a sentence with just one word in it.
+ 
+
+##Referances used:-
+https://stackoverflow.com/questions/54857129/write-a-program-that-takes-a-user-input-string-and-outputs-every-second-word
+
+
