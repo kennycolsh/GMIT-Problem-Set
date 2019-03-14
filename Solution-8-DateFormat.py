@@ -45,5 +45,5 @@ def foo(myDate):
         return date_suffix[myDate % 10]
     else:
         return date_suffix[0]
-
-print(foo(2))
+dd = int(day_)
+print(foo(dd))
