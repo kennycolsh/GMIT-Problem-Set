@@ -32,12 +32,6 @@ import time
 d_ =datetime.datetime.now()
 
 day_ =d_.strftime("%d")
-
-dayOfWeek = d_.strftime("%A") + ", " + d_.strftime("%B")+ " " + day_ + " "+d_.strftime("%Y") + " at "+ d_.strftime("%I:%M:%S %p")
-
-print(dayOfWeek)
-
-
 def foo(myDate):
     date_suffix = ["th", "st", "nd", "rd"]
 
@@ -46,4 +40,12 @@ def foo(myDate):
     else:
         return date_suffix[0]
 dd = int(day_)
-print(foo(dd))
+
+dayOfWeek = d_.strftime("%A") + ", " + d_.strftime("%B")+ " " + day_ +foo(dd)+ " "+d_.strftime("%Y") + " at "+ d_.strftime("%I:%M:%S %p")
+
+print(dayOfWeek)
+
+
+
+
+#print(foo(dd))
