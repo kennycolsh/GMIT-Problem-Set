@@ -31,6 +31,19 @@ import time
 #create varible to hold date time
 d_ =datetime.datetime.now()
 
-dayOfWeek = d_.strftime("%A") + ", " + d_.strftime("%B")+ " " + d_.strftime("%d") + " "+d_.strftime("%Y") + " at "+ d_.strftime("%I:%M:%S %p")
+day_ =d_.strftime("%d")
+
+dayOfWeek = d_.strftime("%A") + ", " + d_.strftime("%B")+ " " + day_ + " "+d_.strftime("%Y") + " at "+ d_.strftime("%I:%M:%S %p")
 
 print(dayOfWeek)
+
+
+def foo(myDate):
+    date_suffix = ["th", "st", "nd", "rd"]
+
+    if myDate % 10 in [1, 2, 3] and myDate not in [11, 12, 13]:
+        return date_suffix[myDate % 10]
+    else:
+        return date_suffix[0]
+
+print(foo(2))
