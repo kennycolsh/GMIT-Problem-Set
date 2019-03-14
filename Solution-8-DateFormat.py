@@ -24,6 +24,9 @@
     #%z  UTC offset in the form +HHMM or -HHMM.
     #%Z  Time zone name (empty string if the object is naive).    
    # %%  A literal '%' character.
+
+#https://stackoverflow.com/a/52045942
+#to help with the function to get st,nd,th,etc 
 #import datetime lib
 import datetime
 import time
