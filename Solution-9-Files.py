@@ -4,10 +4,13 @@
 #https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
 
 
-user_input  = (input("Enter the name of the file : "))
+#user_input  = (input("Enter the name of the file : "))
 
-with open('PHMetter.txt') as f:
-    read_data = f.read()
-f.closed
+with open('sol9.txt','r') as f:
+ 
+    for i in f:
+        print(i, end='')
 
-print(read_data)
+
+
+#print(read_data)
