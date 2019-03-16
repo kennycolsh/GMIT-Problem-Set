@@ -4,18 +4,18 @@
 #https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
 
 
-#user_input  = (input("Enter the name of the file : "))
-
-with open('sol9.txt','r') as f:
-    #f.readlines()
-    #print(f.readlines())
-    for i in f:
-        print(i, end='')
-
-with open('sol9.txt', 'r') as f:
+user_input  = (input("Enter the name of the file : "))
+print("Removing every second line, starting at the first line")
+#start removing the first line
+with open(user_input, 'r') as f:
+    for count, line in enumerate(f, start=1):
+        if count % 2 == 0:
+            print(line)
+print("Removing every second line, starting at the second line")
+#start and remove the second line
+with open(user_input, 'r') as f:
     for count, line in enumerate(f, start=2):
         if count % 2 == 0:
             print(line)
-
 
 
