@@ -63,7 +63,7 @@ split the input string and also to see if the user entered a sentence with just 
 ##Referances used:-
 https://stackoverflow.com/questions/54857129/write-a-program-that-takes-a-user-input-string-and-outputs-every-second-word
 
-7. Solution-6-SplitString.py contains my solution for problem 7 in the problem set.
+7. Solution-7-SquareRoot.py contains my solution for problem 7 in the problem set.
 Write a program that that takes a positive floating point number as input and outputs
 an approximation of its square root.
 One trick i noticed at the end was I had to convert the float back to a strinf to concat it for printing.
@@ -73,3 +73,51 @@ One trick i noticed at the end was I had to convert the float back to a strinf t
 #https://stackoverflow.com/questions/34425583/how-to-check-if-string-is-int-or-float-in-python-2-7?answertab=votes#tab-top
 #import the math lib
 #https://stackoverflow.com/posts/3400987/edit for rounding
+
+8. Solution-8-DateFormat.py contains my solution for problem 8 in the problem set.
+Write a program that outputs today’s date and time in the format ”Monday, January
+10th 2019 at 1:15pm”. The trick was getting the th,rd,nd etc. and I used an array
+ 
+
+##Referances used:-
+#Solution for problem 8
+#referances https://stackoverflow.com/a/18944849
+    #%a  Locale’s abbreviated weekday name.
+    #%A  Locale’s full weekday name.      
+    #%b  Locale’s abbreviated month name.     
+    #%B  Locale’s full month name.
+    #%c  Locale’s appropriate date and time representation.   
+    #%d  Day of the month as a decimal number [01,31].    
+    #%f  Microsecond as a decimal number [0,999999], zero-padded on the left
+    #%H  Hour (24-hour clock) as a decimal number [00,23].    
+    #%I  Hour (12-hour clock) as a decimal number [01,12].    
+    #%j  Day of the year as a decimal number [001,366].   
+    #%m  Month as a decimal number [01,12].   
+    #%M  Minute as a decimal number [00,59].      
+    #%p  Locale’s equivalent of either AM or PM.
+    #%S  Second as a decimal number [00,61].
+    #%U  Week number of the year (Sunday as the first day of the week)
+    #%w  Weekday as a decimal number [0(Sunday),6].   
+    #%W  Week number of the year (Monday as the first day of the week)
+    #%x  Locale’s appropriate date representation.    
+    #%X  Locale’s appropriate time representation.    
+    #%y  Year without century as a decimal number [00,99].    
+    #%Y  Year with century as a decimal number.   
+    #%z  UTC offset in the form +HHMM or -HHMM.
+    #%Z  Time zone name (empty string if the object is naive).    
+   # %%  A literal '%' character.
+
+#https://stackoverflow.com/a/52045942
+#to help with the function to get st,nd,th,etc 
+
+9. Solution-9-FIles.py contains my solution for problem 9 in the problem set.
+Write a program that reads in a text file and outputs every second line. The program
+should take the filename from an argument on the command line.
+ 
+
+##Referances used:-
+#Solution for problem 8
+#https://docs.python.org/3/tutorial/inputoutput.html#saving-structured-data-with-json
+#7.2. Reading and Writing Files
+#https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
+#https://stackoverflow.com/a/44425842
