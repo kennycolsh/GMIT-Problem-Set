@@ -5,3 +5,9 @@
 
 
 user_input  = (input("Enter the name of the file : "))
+
+with open('PHMetter.txt') as f:
+    read_data = f.read()
+f.closed
+
+print(read_data)

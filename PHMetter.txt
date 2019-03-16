@@ -1,0 +1,70 @@
+pH Check:
+
+
+>>>> ONLINE
+> 
+Dual-Channel Star BENCHTOP
+Meter S/N             E08018
+SW rev                1.60
+11-06-2018 10:10:03
+                      
+Channel #             CH2
+Electrode ID          PH
+Electrode S/N         
+ATC Channel #         MANUAL
+Method #              M200
+pH                    8.84 pH
+mV                    -111.4 mV
+Temperature           25.0 C
+Slope                 98.6 %
+Calibration #         CAL_202
+Calibration Time      11-06-2018  9:52:00
+                      
+Operator              ____________
+Sample ID #           12345ABCD (Manual)
+
+
+__________________________________________________
+
+Calibration:
+
+
+>>>> ONLINE
+Dual-Channel Star BENCHTOP
+Meter S/N             E08018
+SW rev                1.60
+11-06-2018 10:10:03
+                      
+Channel #             CH2
+Electrode ID          PH
+Electrode S/N         
+ATC Channel #         MANUAL
+Method #              M200
+Calibration #         CAL_202
+Calibration Time      11-06-2018  9:52:00
+                      
+Point 1
+pH                    2.000 pH
+mV                    288.8 mV
+Temperature           25.0 C
+Electrd Resp Time     23.0 s
+                      
+Point 2
+pH                    4.000 pH
+mV                    173.1 mV
+Temperature           25.0 C
+Electrd Resp Time     23.8 s
+                      
+Point 3
+pH                    7.000 pH
+mV                    -3.3 mV
+Temperature           25.0 C
+Electrd Resp Time     23.0 s
+                      
+Slope 1               97.8 %
+Slope 2               99.4 %
+Avg.Slope             98.6 %
+Eo 1                  -0.4 mV
+Eo 2                  -3.3 mV
+Iso Point             7.00 pH
+Operator              ____________
