@@ -13,7 +13,7 @@ with open('sol9.txt','r') as f:
         print(i, end='')
 
 with open('sol9.txt', 'r') as f:
-    for count, line in enumerate(f, start=1):
+    for count, line in enumerate(f, start=2):
         if count % 2 == 0:
             print(line)
 
