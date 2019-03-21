@@ -116,8 +116,16 @@ should take the filename from an argument on the command line.
  
 
 ##Referances used:-
-#Solution for problem 8
+#Solution for problem 9
 #https://docs.python.org/3/tutorial/inputoutput.html#saving-structured-data-with-json
 #7.2. Reading and Writing Files
 #https://web.microsoftstream.com/video/72484dfc-1b50-4223-8039-bd6a69cab573
 #https://stackoverflow.com/a/44425842
+
+10. Solution-10-FIles.py contains my solution for problem 10 in the problem set.
+Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+ 
+
+##Referances used:-
+#Solution for problem 10
+
