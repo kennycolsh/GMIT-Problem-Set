@@ -124,8 +124,14 @@ should take the filename from an argument on the command line.
 
 10. Solution-10-FIles.py contains my solution for problem 10 in the problem set.
 Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+
+I also added some legends and a title to the plot
  
 
 ##Referances used:-
+#https://pythonspot.com/matplotlib-legend/
+also used the videos from week 9
 #Solution for problem 10
+
+
 
