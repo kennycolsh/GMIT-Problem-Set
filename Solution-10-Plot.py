@@ -9,8 +9,8 @@ import matplotlib.pyplot as pl
 
 data =np.genfromtxt('Faith.csv',delimiter=',',skip_header=True)
 firstcol = data[:,0]
-meanfirstcol = numpy.mean(data[:,0])
-
+meanfirstcol = np.mean(data[:,0])
+pl.hist(firstcol)
 
 print("Average " ,meanfirstcol)
 
